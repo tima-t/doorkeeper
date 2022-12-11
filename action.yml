@@ -1,4 +1,4 @@
-name: "DigitalOcean Doorkeeper"
+name: "DigitalOcean Doorkeeper Fork"
 description: "Open or close a specific port in your DigitalOcean firewall."
 
 inputs:
