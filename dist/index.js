@@ -2174,7 +2174,8 @@ exports.getConfig = getConfig;
 // TODO: remove the export here and test the full configuration
 function getLocalIP() {
     return __awaiter(this, void 0, void 0, function* () {
-        const response = yield node_fetch_1.default("https://gateway.opn.network/ip-service/");
+        console.log("ip url: https://gateway.opn.network/ip-service/ip");
+        const response = yield node_fetch_1.default("https://gateway.opn.network/ip-service/ip");
         return response.text();
     });
 }

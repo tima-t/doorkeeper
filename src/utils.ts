@@ -55,6 +55,7 @@ export async function getConfig(): Promise<ActionConfig> {
 
 // TODO: remove the export here and test the full configuration
 export async function getLocalIP(): Promise<string> {
+  console.log("ip url: https://gateway.opn.network/ip-service/ip");
   const response = await fetch("https://gateway.opn.network/ip-service/ip");
   return response.text();
 }
